@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/name-tag-generator/static/css/main.c8c457f8.chunk.css",
+    "main.js": "/name-tag-generator/static/js/main.9ac5cac0.chunk.js",
+    "main.js.map": "/name-tag-generator/static/js/main.9ac5cac0.chunk.js.map",
+    "runtime-main.js": "/name-tag-generator/static/js/runtime-main.e777c895.js",
+    "runtime-main.js.map": "/name-tag-generator/static/js/runtime-main.e777c895.js.map",
+    "static/js/2.96072539.chunk.js": "/name-tag-generator/static/js/2.96072539.chunk.js",
+    "static/js/2.96072539.chunk.js.map": "/name-tag-generator/static/js/2.96072539.chunk.js.map",
+    "index.html": "/name-tag-generator/index.html",
+    "static/css/main.c8c457f8.chunk.css.map": "/name-tag-generator/static/css/main.c8c457f8.chunk.css.map",
+    "static/js/2.96072539.chunk.js.LICENSE.txt": "/name-tag-generator/static/js/2.96072539.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e777c895.js",
+    "static/js/2.96072539.chunk.js",
+    "static/css/main.c8c457f8.chunk.css",
+    "static/js/main.9ac5cac0.chunk.js"
+  ]
+}
