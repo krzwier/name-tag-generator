@@ -2,6 +2,7 @@
   "name": "name-tag-generator",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "keywords": [],
   "homepage": "http://krzwier.github.io/name-tag-generator",
   "main": "src/index.js",
