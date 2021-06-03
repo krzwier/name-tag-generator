@@ -3,44 +3,29 @@ import NameTagList from "./NameTagList";
 import UserInput from "./UserInput"
 
 class App extends Component {
+
   state = {
-    names: [
-        "Julius",
-       "Tomothy",
-        "Vildan",
-        "Maja",
-        "Ellen",
-        "Danilo",
-       "آریا",
-        "Amandus",
-        "Catarina",
-        "Meral",
-        "Elisa",
-        "آرتين",
-        "مهراد",
-        "Willibald",
-        "Ahmed",
-        "Noelia",
-        "Roderich",
-        "Astrid",
-        "Daniel",
-        "Noah",
-        "Rouven",
-        "Ülkü",
-        "Niké",
-        "Martin"]
+    names: []
   };
+
+  addName = newName => {
+      const newNameList = [newName, ...this.state.names];
+      this.setState({names: newNameList});
+  }
+
   removeName = (clickedIndex) => {
     // to learn how the .filter method works, check out https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
     const filterCallback = (_, index) => index !== clickedIndex;
     const newNames = this.state.names.filter(filterCallback);
     this.setState({ names: newNames });
   };
+
+
   render() {
     return (
       <div className="App">
         <h1>Name Tag Generator</h1>
-        <UserInput />
+        <UserInput addName={this.addName} />
         <NameTagList names={this.state.names} removeName={this.removeName} />
       </div>
     );

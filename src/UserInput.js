@@ -10,11 +10,16 @@ class UserInput extends Component {
     /*** EVENT HANDLERS ***/
 
     updateName = event => {
-        this.setState({ name : event.target.value });
+        this.setState({ name: event.target.value });
     }
 
     handleSubmit = event => {
         event.preventDefault();
+        if (this.state.name !== "") {
+            this.props.addName(this.state.name);
+            this.setState({ name: "" });
+        }
+
     }
 
 
@@ -22,11 +27,11 @@ class UserInput extends Component {
 
     render = () => (
         <form onSubmit={this.handleSubmit}>
-            <input type="text" placeholder="Add a new name here..." value={this.state.name} />
+            <input type="text" placeholder="Add a new name here..." value={this.state.name} onChange={this.updateName} />
             <input type="submit" value="Create Name Tag" />
         </form>
     )
-    
+
 
 }
 

@@ -21,6 +21,7 @@
     margin: 20px 10px;
     display: inline-block;
     position: relative;
+    overflow: hidden;
   }
   .title {
     color: white;
