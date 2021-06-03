@@ -1,3 +1,3 @@
 # name-tag-generator
 
-Small, quick react app that passes props to a functional component to produce name tags.
+Simple React app that produces name tags using stateful component.
