@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/name-tag-generator/static/css/main.c8c457f8.chunk.css",
-    "main.js": "/name-tag-generator/static/js/main.38c5dbbd.chunk.js",
-    "main.js.map": "/name-tag-generator/static/js/main.38c5dbbd.chunk.js.map",
+    "main.css": "/name-tag-generator/static/css/main.e56b125f.chunk.css",
+    "main.js": "/name-tag-generator/static/js/main.3a0d920c.chunk.js",
+    "main.js.map": "/name-tag-generator/static/js/main.3a0d920c.chunk.js.map",
     "runtime-main.js": "/name-tag-generator/static/js/runtime-main.e777c895.js",
     "runtime-main.js.map": "/name-tag-generator/static/js/runtime-main.e777c895.js.map",
-    "static/js/2.b9edab11.chunk.js": "/name-tag-generator/static/js/2.b9edab11.chunk.js",
-    "static/js/2.b9edab11.chunk.js.map": "/name-tag-generator/static/js/2.b9edab11.chunk.js.map",
+    "static/js/2.eff9364d.chunk.js": "/name-tag-generator/static/js/2.eff9364d.chunk.js",
+    "static/js/2.eff9364d.chunk.js.map": "/name-tag-generator/static/js/2.eff9364d.chunk.js.map",
     "index.html": "/name-tag-generator/index.html",
-    "static/css/main.c8c457f8.chunk.css.map": "/name-tag-generator/static/css/main.c8c457f8.chunk.css.map",
-    "static/js/2.b9edab11.chunk.js.LICENSE.txt": "/name-tag-generator/static/js/2.b9edab11.chunk.js.LICENSE.txt"
+    "static/css/main.e56b125f.chunk.css.map": "/name-tag-generator/static/css/main.e56b125f.chunk.css.map",
+    "static/js/2.eff9364d.chunk.js.LICENSE.txt": "/name-tag-generator/static/js/2.eff9364d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e777c895.js",
-    "static/js/2.b9edab11.chunk.js",
-    "static/css/main.c8c457f8.chunk.css",
-    "static/js/main.38c5dbbd.chunk.js"
+    "static/js/2.eff9364d.chunk.js",
+    "static/css/main.e56b125f.chunk.css",
+    "static/js/main.3a0d920c.chunk.js"
   ]
 }
