@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import NameTagList from "./NameTagList.js";
+import NameTagList from "./NameTagList";
+import UserInput from "./UserInput"
 
 class App extends Component {
   state = {
@@ -39,6 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Name Tag Generator</h1>
+        <UserInput />
         <NameTagList names={this.state.names} removeName={this.removeName} />
       </div>
     );
