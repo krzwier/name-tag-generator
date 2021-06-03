@@ -1,3 +1,3 @@
 # name-tag-generator
 
-Simple React app that produces name tags using stateful component.
+Simple React app that produces name tags based on user input.
