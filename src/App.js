@@ -8,6 +8,18 @@ class App extends Component {
     names: []
   };
 
+  componentDidUpdate() {
+      const stateString = JSON.stringify(this.state);
+      localStorage.setItem("stateString", stateString);
+  }
+
+  componentDidMount() {
+      const stateString = localStorage.getItem("stateString");
+      if (stateString) {
+          this.setState(JSON.parse(stateString));
+      }
+  }
+
   addName = newName => {
       const newNameList = [newName, ...this.state.names];
       this.setState({names: newNameList});
